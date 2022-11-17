@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">charityApp</string>
+    <string name="title_activity_donate">DonateActivity</string>
+    <string name="text_travel">Travelocity has some of the best prices on vacation packages guaranteed. Book your flight and hotel together to save money today!</string>
+    <string name="text_stars">All men have stars, but they are not the same things for different people. For some, who are travelers, the stars are guides. For others they are no more than little lights in the sky. For others, who are scholars, they are problems... But all these stars are silent. You-You alone will have stars as no one else has them.</string>
+    <string name="char1_details">SOS Childrens Villages is an independent, non-governmental, nonprofit international development organization headquartered in Innsbruck, Austria. The organization provides humanitarian and developmental assistance to children in need and protects their interests and rights around the world.</string>
+    <string name="char2_details">The BAIF Development Research Foundation is a NGO based in Urali Kanchan near Pune in Maharashtra, India, that pioneers agricultural development. It was founded in 1967 by Manibhai Desai as the Bharatiya Agro Industries Foundation.</string>
+    <string name="char3_details">Association for Advancement and Rehabilitation of Handicapped is an Indian charitable society founded in 1983 by a few committed citizens and affected parents of disabled children</string>
+    <string name="char4_details">Child’s Play India Foundation is a registered music education Trust that seeks to instill positive values and provide social empowerment to India’s disadvantaged children through the teaching of classical music to the highest possible standard</string>
+
+
+
+</resources>

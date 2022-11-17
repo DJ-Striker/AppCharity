@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_spinner_color="@color/black"
+        app:expandable_parentLayout="@layout/layout_char1"
+        app:expandable_secondLayout="@layout/layout_det1" />
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_spinner_color="@color/black"
+        app:expandable_parentLayout="@layout/layout_char2"
+        app:expandable_secondLayout="@layout/layout_det2" />
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_spinner_color="@color/black"
+        app:expandable_parentLayout="@layout/layout_char3"
+        app:expandable_secondLayout="@layout/layout_det3" />
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_spinner_color="@color/black"
+        app:expandable_parentLayout="@layout/layout_char4"
+        app:expandable_secondLayout="@layout/layout_det4" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+</LinearLayout>

@@ -12,8 +12,6 @@ class RegCharActivity : AppCompatActivity() {
         setContentView(R.layout.activity_charities)
 
 
-
-
         val ex = findViewById<ExpandableLayout>(R.id.expandable1)
         val ex2 = findViewById<ExpandableLayout>(R.id.expandable2)
         val ex3 = findViewById<ExpandableLayout>(R.id.expandable3)
